@@ -39,7 +39,7 @@ const TeacherItem: React.FunctionComponent<TeacherItemProps> = ({ teacher }) => 
                     Preço/hora
                             <strong>R$ {teacher.cost}</strong>
                 </p>
-                <a 
+                <a // eslint-disable-next-line
                     target='_blank' 
                     onClick={createNewConnection} 
                     href={`https://wa.me/${teacher.whatsapp}`} >
